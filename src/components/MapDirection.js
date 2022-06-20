@@ -3,6 +3,7 @@ import mapboxgl from 'mapbox-gl';
 // mapbox-direction is not installed properly. This import is just for avoiding displaying red line error. 
 import MapboxDirections from '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions'
 
+// have to set the paid access token to see the map. 
 mapboxgl.accessToken = 'give here access token';
 
 const MapDirection = () => {
